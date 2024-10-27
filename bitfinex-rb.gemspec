@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'json', '~> 2.7'
   spec.add_runtime_dependency 'faraday_middleware', '~> 1.2.0'
   spec.add_runtime_dependency 'emittr', '~> 0.1.0'
-  spec.add_runtime_dependency 'dotenv', '~> 2.7.6'
+  spec.add_runtime_dependency 'dotenv', '~> 2.8'
   spec.add_runtime_dependency 'socksify', '~> 1.7.1'
   spec.add_runtime_dependency 'zlib', '~> 3.1'
 end
