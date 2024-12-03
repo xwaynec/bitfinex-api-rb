@@ -40,7 +40,7 @@ module Bitfinex
           :symbol => @symbol,
           :amount => BigDecimal(@amount, 8).to_s,
           :rate => BigDecimal(@rate, 8).to_s,
-          :period => 2
+          :period => @period
         }
         if !@flags.nil?
           data[:flags] = @flags
